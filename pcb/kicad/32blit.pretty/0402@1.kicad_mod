@@ -1,0 +1,90 @@
+(footprint "0402@1" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "http://www.panasonic.com/industrial/components/pdf/AOA0000CE1.pdf")
+  (fp_text reference "REF**" (at -1.016 -0.635) (layer "F.SilkS")
+      (effects (font (size 0.373888 0.373888) (thickness 0.032512)) (justify left bottom))
+    (tstamp c954a614-6f38-48d0-b059-6b9d463b4a7c)
+  )
+  (fp_text value "0402@1" (at -1.016 1.016) (layer "F.Fab")
+      (effects (font (size 0.373888 0.373888) (thickness 0.032512)) (justify left bottom))
+    (tstamp 865192d3-d218-4f11-8e17-051a811cc901)
+  )
+  (fp_poly
+    (pts
+      (xy -0.85 0.35)
+      (xy -0.25 0.35)
+      (xy -0.25 -0.35)
+      (xy -0.85 -0.35)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Mask") (tstamp 4eda7e3e-8d2a-4db2-b495-6bedf9a10e93))
+  (fp_poly
+    (pts
+      (xy 0.25 0.35)
+      (xy 0.85 0.35)
+      (xy 0.85 -0.35)
+      (xy 0.25 -0.35)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Mask") (tstamp 4246eb5f-d222-42a7-b596-6688cac6806e))
+  (fp_line (start -0.85 -0.55) (end 0.85 -0.55)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a5d5ddbf-b343-485a-ad01-380aebf6c4da))
+  (fp_line (start -0.85 0.55) (end -0.85 -0.55)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp feaf3d87-afa7-4b53-81ad-91973513cd16))
+  (fp_line (start 0.85 -0.55) (end 0.85 0.55)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 966c1dec-b00e-4514-b4aa-8fb74130517a))
+  (fp_line (start 0.85 0.55) (end -0.85 0.55)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ba5bf3da-8302-4482-a73a-0050a2be1647))
+  (fp_line (start -0.95 -0.45) (end -0.95 0.45)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a3042ee6-eccf-468a-a3e6-ca0c001302a3))
+  (fp_line (start -0.95 0.45) (end -0.3 0.45)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 599d3b61-8cce-461f-b6b0-7454f3841278))
+  (fp_line (start -0.3 -0.45) (end -0.95 -0.45)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 84f0681f-dd71-4299-ac2d-6fd7fc189fff))
+  (fp_line (start 0.3 -0.45) (end 0.95 -0.45)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 5d3e3552-4ddf-484f-8f2c-42fa66b9a09a))
+  (fp_line (start 0.95 -0.45) (end 0.95 0.45)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e08c242a-828f-447b-84ac-abf63d42937d))
+  (fp_line (start 0.95 0.45) (end 0.3 0.45)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 97be4582-3e09-4d09-a895-203ec5ce1ff7))
+  (fp_poly
+    (pts
+      (xy -0.5 -0.15)
+      (xy 0.5 -0.15)
+      (xy 0.5 -0.25)
+      (xy -0.5 -0.25)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 3c33a767-5fb6-479a-b4dc-aa86faa8107a))
+  (fp_poly
+    (pts
+      (xy -0.5 0.25)
+      (xy -0.3 0.25)
+      (xy -0.3 -0.25)
+      (xy -0.5 -0.25)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp cd687f21-1600-474b-95d1-a21f700c4232))
+  (fp_poly
+    (pts
+      (xy -0.5 0.25)
+      (xy 0.5 0.25)
+      (xy 0.5 0.15)
+      (xy -0.5 0.15)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 3d0a916f-fedb-4aea-a1db-16aa1acfe757))
+  (fp_poly
+    (pts
+      (xy 0.3 0.25)
+      (xy 0.5 0.25)
+      (xy 0.5 -0.25)
+      (xy 0.3 -0.25)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 0c487d7e-cc3c-4df8-b7da-f12dca9b9025))
+  (pad "1" smd roundrect (at -0.55 0) (size 0.5 0.6) (layers "F.Cu" "F.Paste") (roundrect_rratio 0.1)
+    (solder_mask_margin 0.05) (solder_paste_margin -0.025) (thermal_bridge_angle 45) (tstamp b1c327b2-1800-4557-8d45-4ae1e3c2eb1d))
+  (pad "2" smd roundrect (at 0.55 0) (size 0.5 0.6) (layers "F.Cu" "F.Paste") (roundrect_rratio 0.1)
+    (solder_mask_margin 0.05) (solder_paste_margin -0.025) (thermal_bridge_angle 45) (tstamp 76a28084-9bc8-44ea-87d1-7a76214d1085))
+)
